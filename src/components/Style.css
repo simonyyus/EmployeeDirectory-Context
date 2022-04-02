@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  margin: 20px 80px 40px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  overflow: visible;
+}
+.homepage,
+.employeepage {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 650px;
+  margin: 5px;
+}
+.employeepage {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 650px;
+  margin: 5px;
+  background-color: rgb(220, 251, 252);
+}
+.headerOne,
+.headerTwo {
+  border: solid rgb(97, 133, 212) 2px;
+  background-color: rgb(27, 203, 209);
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+}
+.search {
+  border-radius: 5px;
+  width: 450px;
+  margin-left: 10px;
+}
+.employeeList {
+  display: flex;
+  margin: 5px 10px;
+  box-shadow: 1px 1px 1px 1px #c5c4c4;
+}
+.img-container {
+  width: 60px;
+  height: 60px;
+  margin: 10px 10px;
+}
+/* Resize images */
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+.nameList {
+  margin: 1px 40px;
+}
+.empDetail-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+}
+.empDetailList {
+  margin: 0px 20px;
+}
+.more-detail {
+  margin: 0px 10px;
+  box-shadow: 1px 1px 1px 1px #c5c4c4;
+  width: 480px;
+  height: 400px;
+}
+.callOffice,
+.callMobile,
+.sms,
+.email {
+  padding-right: 300px;
+  box-shadow: 1px 0px 1px 0px #c5c4c4;
+}
